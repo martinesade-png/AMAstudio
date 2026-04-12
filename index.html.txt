@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Aesthetics Business</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f8f8f8;
+      text-align: center;
+    }
+    header {
+      background: #d9bfa9;
+      color: white;
+      padding: 40px;
+    }
+    section {
+      padding: 40px;
+    }
+    .services {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      width: 200px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Your Business Name</h1>
+  <p>Enhancing Your Natural Beauty</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Qualified aesthetics practitioner offering safe, natural results.</p>
+</section>
+
+<section>
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">Lip Fillers</div>
+    <div class="card">Botox</div>
+    <div class="card">Facials</div>
+  </div>
+</section>
+
+<section>
+  <h2>Book Now</h2>
+  <p>Message me on Instagram or WhatsApp</p>
+</section>
+
+<footer>
+  <p>Based in London</p>
+</footer>
+
+</body>
+</html>
