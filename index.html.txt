@@ -1,70 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Aesthetics Business</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      background: #f8f8f8;
-      text-align: center;
-    }
-    header {
-      background: #d9bfa9;
-      color: white;
-      padding: 40px;
-    }
-    section {
-      padding: 40px;
-    }
-    .services {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .card {
-      background: white;
-      padding: 20px;
-      width: 200px;
-      border-radius: 10px;
-    }
-    footer {
-      background: #333;
-      color: white;
-      padding: 20px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A&M Aesthetic Studio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #f8f3f1;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.treatments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #f8f3f1;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #d4a5a5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>Your Business Name</h1>
-  <p>Enhancing Your Natural Beauty</p>
+    <h1>A&M Aesthetic Studio</h1>
+    <p>Enhancing natural beauty with advanced skin treatments</p>
+    <a href="#contact" class="button">Book Now</a>
 </header>
 
 <section>
-  <h2>About Me</h2>
-  <p>Qualified aesthetics practitioner offering safe, natural results.</p>
+    <h2>About Us</h2>
+    <p>At A&M Aesthetic Studio, we specialise in advanced skin treatments designed to enhance your natural beauty. Our focus is on safe, results-driven treatments in a calm and professional environment.</p>
 </section>
 
 <section>
-  <h2>Services</h2>
-  <div class="services">
-    <div class="card">Lip Fillers</div>
-    <div class="card">Botox</div>
-    <div class="card">Facials</div>
-  </div>
+    <h2>Treatments</h2>
+    <div class="treatments">
+        <div class="card">Microneedling</div>
+        <div class="card">Skin Boosters</div>
+        <div class="card">Anti-Wrinkle Treatments</div>
+        <div class="card">Facials</div>
+    </div>
 </section>
 
 <section>
-  <h2>Book Now</h2>
-  <p>Message me on Instagram or WhatsApp</p>
+    <h2>Results</h2>
+    <p style="text-align:center;">Before & After photos coming soon...</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center;">📍 Farnborough, Hampshire</p>
+    <p style="text-align:center;">📞 07XXX XXX XXX</p>
+    <p style="text-align:center;">📧 your@email.com</p>
 </section>
 
 <footer>
-  <p>Based in London</p>
+    <p>© 2026 A&M Aesthetic Studio</p>
 </footer>
 
 </body>
