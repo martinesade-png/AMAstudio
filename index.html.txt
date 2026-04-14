@@ -98,13 +98,13 @@ footer {
 
 <section id="contact">
     <h2>Contact</h2>
-    <p style="text-align:center;">📍 Farnborough, Hampshire</p>
-    <p style="text-align:center;">📞 07XXX XXX XXX</p>
-    <p style="text-align:center;">📧 your@email.com</p>
+    <p style="text-align:center;">ð Guildford, Surrey</p>
+    <p style="text-align:center;">ð 07XXX XXX XXX</p>
+    <p style="text-align:center;">ð§ info@amaestheticstudio.com</p>
 </section>
 
 <footer>
-    <p>© 2026 A&M Aesthetic Studio</p>
+    <p>Â© 2026 A&M Aesthetic Studio</p>
 </footer>
 
 </body>
